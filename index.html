@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div id="containerStatus">
+            <div>
+                <label>Usuário: </label>
+                <label id="lblUser">xxx</label>
+            </div>
+            
+            <div>
+                <label>Nível: </label>
+                <label id="lblNivel">xxx</label>
+            </div>
+            
+        </div>
+        <div id="containerLogin">
+            <label>Email</label>
+            <input type="text" id="inpEmail" placeholder="Entre com email">
+            <label>Password</label>
+            <input type="password" id="inpPassword" placeholder="Password">
+            <button id="btnlogin">Login</button>
+
+        </div>
+        <button id="btnCadpro"> Cadastrar Produtos</button>
+    </main>
+
+    <script src="./node_modules/jwt-decode/build/jwt-decode.js"></script>
+    <script src="./node_modules/js-cookies/src/js.cookie.js"></script>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="./jsscript.js"></script>
+</body>
+</html>
